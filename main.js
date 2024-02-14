@@ -15,14 +15,13 @@ function getHorarioBrasilia() {
     document.getElementById('horarioBrasilia').innerText = horarioBrasilia;
 
       // Definir a imagem com base no horário
-
       const imagemDoDia = document.getElementById('imagemDoDia');
       if (horarioBrasilia >= 6 && horarioBrasilia < 12) {
-        imagemDoDia.src = 'manha.png?' + new Date().getTime();
+        imagemDoDia.src = 'manha.webp?' + new Date().getTime();
       } else if (horarioBrasilia >= 12 && horarioBrasilia < 18) {
-        imagemDoDia.src = 'manha.png?' + new Date().getTime();
+        imagemDoDia.src = 'manha3.png?' + new Date().getTime();
       } else {
-        imagemDoDia.src = 'manha.png?' + new Date().getTime();
+        imagemDoDia.src = 'noite1.png?' + new Date().getTime();
       }
     }
   

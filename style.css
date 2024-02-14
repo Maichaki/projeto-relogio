@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+body{
+    background: url(background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.container{
+    font-size: 30px;
+    background: #1b1b53;
+    height: 600px;
+    width: 700px;
+    text-align: center;
+    justify-content:flex-start;
+    border-radius: 12%;
+    font-family: 'Days one';
+    color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.30);
+    text-decoration: solid;
+}
+
+#horarioBrasilia{
+    padding: auto;
+    margin: 10px;
+} 
+
+#imagemDoDia{
+    width: 400px;
+    height: 400px;
+}
+
+#posicaoimg{
+    margin: 10px;
+}
